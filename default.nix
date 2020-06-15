@@ -1,5 +1,5 @@
 let
-  pkgs = import <unstable> {};
+  pkgs = import <nixpkgs> {};
   machnix_src = builtins.fetchGit {
     url = "https://github.com/DavHau/mach-nix/";
     ref = "2.0.0";
