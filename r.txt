@@ -1,0 +1,7 @@
+PyYaml>=4.2b1
+dnspython>=1.15.0
+natsort>=5.5.0
+pycountry>=19.8.18
+pycountry-convert>=0.7.2
+python-dateutil>=2.8.1
+requests>=2.20.0

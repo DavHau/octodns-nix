@@ -17,7 +17,7 @@ let
   octodns = my_python.pkgs.buildPythonApplication rec {
     pname = "octodns";
     version = "0.9.10";
-    name = pname + version;
+    name = "${pname}-${version}";
     src = pkgs.applyPatches {
       src = builtins.fetchTarball {
         url = "https://github.com/github/octodns/tarball/3e1282f250307f6085577bbbb702726474764dac";
